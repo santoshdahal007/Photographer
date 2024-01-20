@@ -21,10 +21,10 @@ const Header = () => {
             <img src={Logo} alt='companys logo'/>
           </Link>
           <nav className='hidden xl:flex gap-x-12 font-semibold'>
-            <Link to={'/'} className='text-[#696c6d] hover:text-primray transition'>Home</Link>
-            <Link to={'/about'} className='text-[#696c6d] hover:text-primray transition'>About</Link>
-            <Link to={'/portfolio'} className='text-[#696c6d] hover:text-primray transition'>Portfolio</Link>
-            <Link to={'/contact'} className='text-[#696c6d] hover:text-primray transition'>Contact</Link>
+            <Link to={'/'} className='hover:text-primray transition'>Home</Link>
+            <Link to={'/about'} className='hover:text-primray transition'>About</Link>
+            <Link to={'/portfolio'} className='hover:text-primray transition'>Portfolio</Link>
+            <Link to={'/contact'} className='hover:text-primray transition'>Contact</Link>
           </nav>
         </div>
         <Socials/>

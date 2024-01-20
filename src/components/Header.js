@@ -15,10 +15,11 @@ const Header = () => {
       h-[100px] 
       lg:h-[140px] 
       flex 
-      items-center'>
+      items-center
+      bg-white'>
         <div className='flex flex-col lg:flex-row lg:items-center w-full justify-between'>
           <Link to={'/'} className='max-w-[200px]'>
-            <img src={Logo} alt='companys logo'/>
+            <img src={Logo} alt='company logo'/>
           </Link>
           <nav className='hidden xl:flex gap-x-12 font-semibold'>
             <Link to={'/'} className='text-lg hover:text-primray transition'>Home</Link>

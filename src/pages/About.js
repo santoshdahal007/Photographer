@@ -11,7 +11,8 @@ const About = () => {
     exit={{opacity:0, y: '100%'}}
     transition={{transition1}}
     className='section'>
-    <div className='container mx-auto h-full relative overflow-scroll'>
+    <div className='container mx-auto h-full top-[100px] 
+      sm:top-[0px] relative overflow-scroll'>
       <div className='
         flex flex-col lg:flex-row h-auto sm:h-full
         items-center justify-center gap-x-24
@@ -26,7 +27,7 @@ const About = () => {
             animate={{opacity:1, y:0}}
             exit={{opacity:0, y: '-90%'}}
             transition={{transition1}}
-            className='flex-1 pt-36 pb-14 px-[30px] lg:pt-0
+            className='flex-1 sm:pt-36 pb-14 px-[30px] lg:pt-0
             lg:w-auto z-10 flex flex-col justify-center
             items-center lg:items-start'>
             <h1 className='h1'>About me</h1>

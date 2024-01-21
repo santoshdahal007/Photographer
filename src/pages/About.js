@@ -49,7 +49,7 @@ const About = () => {
             of my journey. His unwavering belief in me, even during moments
             of self-doubt, has been instrumental in my success.
             </p>
-            <Link to={'/portfolio'} className='btn'>View my work</Link>
+            <Link to={'/portfolio'} className='btn rounded-full'>View my work</Link>
           </motion.div>
       </div>
     </div>

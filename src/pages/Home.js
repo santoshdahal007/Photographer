@@ -42,7 +42,7 @@ const Home = () => {
               passionate photographer dedicated to capturing
               moments that resonates.
             </p>
-            <Link to={'/contact'} className='btn mb-[30px] rounded'>Hire me</Link>
+            <Link to={'/contact'} className='btn mb-[30px] rounded-full'>Hire me</Link>
         </motion.div>
       </div>
     </div>

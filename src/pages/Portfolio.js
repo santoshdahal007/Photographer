@@ -30,7 +30,7 @@ const Portfolio = () => {
             non diam phasellus vestibulum. Consectetur libero id faucibus nisl tincidunt eget.
             Magna fermentum iaculis eu non. Nisi lacus sed viverra tellus in hac.
           </p>
-          <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>Hire me</Link>
+          <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0 rounded-full'>Hire me</Link>
         </motion.div>
         <div className='grid grid-cols-2 lg:gap-2'>
           <div className='max-w-[250px] lg:max-w-[320px] h-[187px]

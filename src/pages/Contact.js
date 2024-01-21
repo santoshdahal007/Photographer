@@ -54,7 +54,7 @@ const Contact = () => {
           initial={{opacity:0, y:'100%'}}
           animate={{opacity:1, y:0}}
           exit={{opacity:0, y: '100%'}}
-          transition={{transition:transition1,duration:1.5}} 
+          transition={{transition1}} 
           className='lg:flex-1'>
           <img src={WomanImg} alt='photographer'/>
         </motion.div>
